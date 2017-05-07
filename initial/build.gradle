@@ -26,6 +26,7 @@ targetCompatibility = 1.8
 
 dependencies {
     compile("org.springframework.boot:spring-boot-starter-batch")
+    compile ("org.springframework.boot:spring-boot-autoconfigure")
     compile("org.hsqldb:hsqldb")
     testCompile("junit:junit")
 }

@@ -1,7 +1,6 @@
 package hello;
 
 import javax.sql.DataSource;
-
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.JobExecutionListener;
 import org.springframework.batch.core.Step;
@@ -85,5 +84,7 @@ public class BatchConfiguration {
                 .writer(writer())
                 .build();
     }
+
+
     // end::jobstep[]
 }
